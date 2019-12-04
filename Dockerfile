@@ -42,3 +42,9 @@ WORKDIR /opt/OpenDDS/tests/DCPS/Messenger
 RUN mwc.pl -type gnuace && make
 
 WORKDIR /opt/workspace
+
+#additional ROS2 deps
+RUN apt-get update && apt-get install -y \
+  libasio-dev \
+  libtinyxml2-dev \
+  liblog4cxx-dev
