@@ -1,2 +1,2 @@
 # opendds_ros2_docker
-combining OpenDDS and ROS2 into a single docker image
+Base image for for OpenDDS docker for ROS2/OpenDDS images. The docker images created from this repo are used to provide packages needed for OpenDDS RMW/ROSIDL that aren't in the ROS or the OpenDDS images.
