@@ -7,4 +7,8 @@ RUN apt-get update && apt-get install -y \
   libtinyxml2-dev \
   liblog4cxx-dev \
   ros-$ROS_DISTRO-rosidl-generator-dds-idl \
-  gdb
+  gdb \
+  ccache \
+  ros-eloquent-test-msgs \
+  ros-eloquent-osrf-testing-tools-cpp \
+  ros-eloquent-launch-testing-ament-cmake
